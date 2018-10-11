@@ -4,7 +4,8 @@
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
 
-[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+
+[NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
 * Python 3系
@@ -24,6 +25,12 @@
 | test_array_stack.py | 配列のスタック |
 | test_array_stats.py | 統計関数 |
 | test_array_ufunc.py | ユニバーサル関数 |
+
+## 使い方
+1. このリポジトリをローカルにクローン
+1. PyCharm(推奨)でプロジェクトを作成し開く
+1. クローン直後は間違ったassert文になっているので全テストが失敗します
+1. NumPy公式チュートリアルを読みながら正しいassert文に修正して下さい
 
 ## サンプル
 ~~~
@@ -58,5 +65,6 @@ if __name__ == '__main__':
 [MITライセンス](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
 ### 参考文献
+* NumPy - Quickstart tutorial.
 * Rougier - 100 numpy exercises.
 * 東大松尾研 - Numpy Test System.
