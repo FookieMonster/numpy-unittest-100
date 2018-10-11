@@ -6,12 +6,12 @@ class TestArrayUfunc(unittest.TestCase):
 
     def test_sqrt(self):
         vector = np.array([9, 16, 25])
-        assert_array_equal(np.sqrt(vector), np.array([3, 4, 5]))
+        assert_array_equal(np.sqrt(vector), np.array([x, x, x]))
 
     def test_add(self):
         A = np.array([0, 1, 2])
         B = np.array([2, -1, 4])
-        assert_array_equal(np.add(A, B), np.array([2, 0, 6]))
+        assert_array_equal(np.add(A, B), np.array([x, x, x]))
 
 if __name__ == '__main__':
     unittest.main()

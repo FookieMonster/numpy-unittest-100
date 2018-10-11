@@ -6,25 +6,25 @@ class TestArrayBasic(unittest.TestCase):
     def test_ndim(self):
         vector = np.array([0, 0, 0])
         metrix = np.array([[0, 0, 0], [0, 0, 0]])
-        self.assertEqual(vector.ndim, 1)
-        self.assertEqual(metrix.ndim, 2)
+        self.assertEqual(vector.ndim, x)
+        self.assertEqual(metrix.ndim, x)
 
     def test_shape(self):
         vector = np.array([0, 0, 0])
         metrix = np.array([[0, 0, 0], [0, 0, 0]])
-        self.assertEqual(vector.shape, (3,))
-        self.assertEqual(metrix.shape, (2, 3))
+        self.assertEqual(vector.shape, (x,))
+        self.assertEqual(metrix.shape, (x, x))
 
     def test_size(self):
         vector = np.array([0, 0, 0])
         metrix = np.array([[0, 0, 0], [0, 0, 0]])
-        self.assertEqual(vector.size, 3)
-        self.assertEqual(metrix.size, 6)
+        self.assertEqual(vector.size, x)
+        self.assertEqual(metrix.size, x)
 
     def test_dtype(self):
         metrix = np.array([[0, 0, 0], [0, 0, 0]])
-        self.assertEqual(type(metrix), np.ndarray)
-        self.assertEqual(metrix.dtype, np.int64)
+        self.assertEqual(type(metrix), x)
+        self.assertEqual(metrix.dtype, x)
 
 if __name__ == '__main__':
     unittest.main()
