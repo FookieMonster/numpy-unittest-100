@@ -3,12 +3,11 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-
-
-[NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
+[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
 * Python 3系
+* NumPy
 * PyCharm (推奨)
 
 ## テストケース
@@ -27,10 +26,10 @@
 | test_array_ufunc.py | ユニバーサル関数 |
 
 ## 使い方
-1. このリポジトリをローカルにクローン
+1. このリポジトリをクローン
 1. PyCharm(推奨)でプロジェクトを作成し開く
-1. クローン直後は間違ったassert文になっているので全テストが失敗します
-1. NumPy公式チュートリアルを読みながら正しいassert文に修正して下さい
+1. クローン直後は間違ったAssert文になっているので全テストが失敗します
+1. NumPy公式チュートリアルを参考にして正しいAssert文に修正して下さい
 
 ## サンプル
 ~~~
@@ -65,6 +64,7 @@ if __name__ == '__main__':
 [MITライセンス](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
 ### 参考文献
-* NumPy - Quickstart tutorial.
-* Rougier - 100 numpy exercises.
-* 東大松尾研 - Numpy Test System.
+* NumPy - [Quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
+* Python - [unittest](https://docs.python.jp/3/library/unittest.html)
+* Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
+* 東大松尾研 - Numpy Test System
