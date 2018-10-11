@@ -1,4 +1,4 @@
-![screenshot](https://user-images.githubusercontent.com/7298626/46781172-52393900-cd5b-11e8-8c5e-c9689cf30027.png)
+![screenshot](https://user-images.githubusercontent.com/7298626/46808489-728ee500-cda7-11e8-8715-aaf15c963b17.png)
 
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
