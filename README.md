@@ -3,15 +3,14 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
-## 説明 
+[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
 * Python 3系
 * PyCharm (推奨)
 
-## ファイル構成
+## テストケース
 | テストケース | トピック |
 ----|---- 
 | test_array_basic.py | NumPyの基礎 |
@@ -20,10 +19,10 @@
 | test_array_eye.py | 単位行列 |
 | test_array_operation.py | 基本的な操作 |
 | test_array_reshape.py | 形状の操作 |
-| test_array_select.py | 検索 |
-| test_array_slicing.py | スライス |
-| test_array_stack.py | スタック |
-| test_array_stats.py | 統計 |
+| test_array_select.py | 配列の選択 |
+| test_array_slicing.py | インデックス参照とスライス |
+| test_array_stack.py | 配列のスタック |
+| test_array_stats.py | 統計関数 |
 | test_array_ufunc.py | ユニバーサル関数 |
 
 ## サンプル
