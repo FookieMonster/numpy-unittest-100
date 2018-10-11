@@ -3,7 +3,7 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f){:target="_blank"}
 
 ## 動作環境
 * Python 3系
