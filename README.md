@@ -43,6 +43,12 @@ class TestArrayEye(unittest.TestCase):
         metrix = np.eye(2, 3)
         assert_array_equal(metrix, np.array([[1, 0, 0],
                                              [0, 1, 0]]))
+    
+    def test_eye_k1(self):
+        metrix = np.eye(3, k=1)
+        assert_array_equal(metrix, np.array([[0, 1, 0],
+                                             [0, 0, 1],
+                                             [0, 0, 0]]))
 
 if __name__ == '__main__':
     unittest.main()
