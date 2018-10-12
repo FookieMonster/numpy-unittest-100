@@ -3,9 +3,11 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-内容は、NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。機能毎にテストメソッドがあるので、その実行結果をAssert文を書いて当てる演習問題です。
+## 説明
+NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。  
+そして、機能毎にテストメソッドがあるので、その実行結果をAssert文を書いて当てる演習問題です。
 
-[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+[関連Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
 * Python 3
@@ -69,6 +71,6 @@ if __name__ == '__main__':
 
 ### 参考文献
 * NumPy - [Quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
-* Python - [unittest](https://docs.python.jp/3/library/unittest.html)
+* Python - [Unittest](https://docs.python.jp/3/library/unittest.html)
 * Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
-* 東大松尾研 - Numpy Test System
+* 東京大学 松尾研究室 - [Numpy Test System](https://weblab.t.u-tokyo.ac.jp/)
