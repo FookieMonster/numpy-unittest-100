@@ -3,10 +3,12 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-[関連Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+内容は、NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。機能毎にテストメソッドがあるので、その実行結果をAssert文を書いて当てる演習問題です。
+
+[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
-* Python 3系
+* Python 3
 * NumPy
 * PyCharm (推奨)
 
@@ -33,6 +35,7 @@
 1. 全問正解すると上記のスクショのような「All tests passed」のグリーンバーになります
 
 ## サンプル
+xの部分のコードを書いて正しいAssert文にして下さい。
 ~~~
 import unittest
 import numpy as np
@@ -42,20 +45,20 @@ class TestArrayEye(unittest.TestCase):
 
     def test_eye_NxN(self):
         metrix = np.eye(3)
-        assert_array_equal(metrix, np.array([[1, 0, 0],
-                                             [0, 1, 0],
-                                             [0, 0, 1]]))
+        assert_array_equal(metrix, np.array([[x, x, x],
+                                             [x, x, x],
+                                             [x, x, x]]))
 
     def test_eye_NxM(self):
         metrix = np.eye(2, 3)
-        assert_array_equal(metrix, np.array([[1, 0, 0],
-                                             [0, 1, 0]]))
+        assert_array_equal(metrix, np.array([[x, x, x],
+                                             [x, x, x]]))
     
     def test_eye_k1(self):
         metrix = np.eye(3, k=1)
-        assert_array_equal(metrix, np.array([[0, 1, 0],
-                                             [0, 0, 1],
-                                             [0, 0, 0]]))
+        assert_array_equal(metrix, np.array([[x, x, x],
+                                             [x, x, x],
+                                             [x, x, x]]))
 
 if __name__ == '__main__':
     unittest.main()
