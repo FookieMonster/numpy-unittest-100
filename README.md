@@ -2,7 +2,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-ユニットテストフレームワークを利用したNumPyの練習問題100
+Unittestフレームワークを利用したNumPyの練習問題100
 
 ![screenshot](https://user-images.githubusercontent.com/7298626/46901704-35376e00-cef3-11e8-81de-039408699990.png)
 
@@ -68,7 +68,7 @@ if __name__ == '__main__':
 ~~~
 
 ## 関連Webサイト
-* [NumPyの練習問題100 (numpy-unittest-100)](https://note.mu/fookiemonster/n/n17276af88b7f)
+* [NumPyの練習問題100](https://note.mu/fookiemonster/n/n17276af88b7f)
 * [NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## ライセンス
