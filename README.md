@@ -4,7 +4,7 @@
 
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-![screenshot](https://user-images.githubusercontent.com/7298626/46808489-728ee500-cda7-11e8-8715-aaf15c963b17.png)
+![screenshot](https://user-images.githubusercontent.com/7298626/46901704-35376e00-cef3-11e8-81de-039408699990.png)
 
 ## 説明
 NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。  
