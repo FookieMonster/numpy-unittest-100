@@ -4,8 +4,6 @@
 
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
-[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
-
 ![screenshot](https://user-images.githubusercontent.com/7298626/46808489-728ee500-cda7-11e8-8715-aaf15c963b17.png)
 
 ## 説明
@@ -68,6 +66,10 @@ class TestArrayEye(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ~~~
+
+## 関連Webサイト
+* [NumPyの演習問題100 (numpy-unittest-100)](https://note.mu/fookiemonster/n/n17276af88b7f)
+* [NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## ライセンス
 [MITライセンス](https://github.com/tcnksm/tool/blob/master/LICENCE)
