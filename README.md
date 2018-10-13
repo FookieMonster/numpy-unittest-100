@@ -1,9 +1,12 @@
-![screenshot](https://user-images.githubusercontent.com/7298626/46808489-728ee500-cda7-11e8-8715-aaf15c963b17.png)
-
 # numpy-unittest-100
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
+
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
 [Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+
+![screenshot](https://user-images.githubusercontent.com/7298626/46808489-728ee500-cda7-11e8-8715-aaf15c963b17.png)
 
 ## 説明
 NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。  
