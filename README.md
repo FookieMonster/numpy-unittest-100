@@ -68,7 +68,7 @@ if __name__ == '__main__':
 ~~~
 
 ## 関連Webサイト
-* [NumPyの演習問題100 (numpy-unittest-100)](https://note.mu/fookiemonster/n/n17276af88b7f)
+* [NumPyの練習問題100 (numpy-unittest-100)](https://note.mu/fookiemonster/n/n17276af88b7f)
 * [NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## ライセンス
