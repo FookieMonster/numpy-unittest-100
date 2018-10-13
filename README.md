@@ -74,7 +74,7 @@ if __name__ == '__main__':
 ## ライセンス
 [MITライセンス](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-### 参考文献
+## 参考文献
 * NumPy - [Quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
 * Python - [Unittest](https://docs.python.jp/3/library/unittest.html)
 * Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
