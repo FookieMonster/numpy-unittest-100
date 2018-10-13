@@ -3,11 +3,11 @@
 # numpy-unittest-100
 ユニットテストフレームワークを利用したNumPyの演習問題100
 
+[Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
+
 ## 説明
 NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。  
 そして、機能毎にテストメソッドがあるので、その実行結果をAssert文を書いて当てる演習問題です。
-
-[関連Webサイト](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## 動作環境
 * Python 3
