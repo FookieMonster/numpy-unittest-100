@@ -38,7 +38,7 @@ NumPy公式チュートリアルのトピック毎にテストケースのクラ
 1. 全問正解すると上記のスクショのような「All tests passed」のグリーンバーになります
 
 ## サンプル
-[問１] xの部分のコードを書いて正しいAssert文にして下さい。
+（問題１）　xの部分のコードを書いて正しいAssert文にして下さい。
 ~~~
 import unittest
 import numpy as np
