@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
-class TestArraySlicing(unittest.TestCase):
+class TestArrayIndexing(unittest.TestCase):
 
     def test_indexing_1d(self):
         vector = np.arange(10)
