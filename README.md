@@ -22,11 +22,12 @@ NumPy公式チュートリアルのトピック毎にテストケースのクラ
 | test_array_broadcast.py | ブロードキャスト |
 | test_array_creation.py | 配列の生成 |
 | test_array_eye.py | 単位行列 |
+| test_array_indexing.py | インデックス参照 |
 | test_array_operation.py | 基本的な操作 |
 | test_array_reshape.py | 形状の操作 |
 | test_array_select.py | 配列の選択 |
-| test_array_slicing.py | インデックス参照とスライス |
-| test_array_stack.py | 配列のスタック |
+| test_array_slicing.py | スライス |
+| test_array_stack.py | スタック |
 | test_array_stats.py | 統計関数 |
 | test_array_ufunc.py | ユニバーサル関数 |
 
