@@ -40,7 +40,7 @@ class TestArrayCreation(unittest.TestCase):
         vector = np.arange(0, 5)
         assert_array_equal(vector, np.array([x, x, x, x, x]))
 
-    def test_arange_step(self):
+    def test_arange_with_step(self):
         vector = np.arange(0, 10, 2)
         assert_array_equal(vector, np.array([x, x, x, x, x]))
 

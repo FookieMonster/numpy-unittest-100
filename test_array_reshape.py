@@ -18,5 +18,11 @@ class TestArrayReshape(unittest.TestCase):
         metrix = np.arange(6).reshape(2, -1)
         assert_array_equal(metrix, np.array([[x, x, x], [x, x, x]]))
 
+    def test_flatten(self):
+        metrix = np.array([[12,  6, 18],
+                           [ 2, 14, 14],
+                           [10, 19,  0]])
+        assert_array_equal(metrix.flatten(), np.array([x, x, x, x, x, x, x, x, x]))
+
 if __name__ == '__main__':
     unittest.main()
