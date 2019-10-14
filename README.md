@@ -45,21 +45,25 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
-class TestArrayEye(unittest.TestCase):
+class TestArrayIndexing(unittest.TestCase):
 
-    def test_eye_NxN(self):
-        metrix = np.eye(3)
-        assert_array_equal(metrix, np.array([[x, x, x],
-                                             [x, x, x],
-                                             [x, x, x]]))
+    def test_fancy_indexing(self):
+        vector = np.array([7, 6, 5])
+        assert_array_equal(vector[[2, 0, 1]], np.array([x, x, x]))
 
-    def test_eye_NxM(self):
-        metrix = np.eye(2, 3)
-        assert_array_equal(metrix, np.array([[x, x, x],
-                                             [x, x, x]]))
-    
-    def test_eye_k1(self):
-        metrix = np.eye(3, k=1)
+    def test_indexing_with_boolean_arrays(self):
+        metrix = np.arange(9).reshape(3, 3)
+        assert_array_equal(metrix > 4, np.array([[x, x, x],
+                                                 [x, x, x],
+                                                 [x, x, x]]))
+
+    def test_indexing_with_selected_elements(self):
+        metrix = np.arange(9).reshape(3, 3)
+        assert_array_equal(metrix[metrix > 4], np.array([x, x, x, x]))
+
+    def test_indexing_with_assignments(self):
+        metrix = np.arange(9).reshape(3, 3)
+        metrix[metrix > 4] = 0
         assert_array_equal(metrix, np.array([[x, x, x],
                                              [x, x, x],
                                              [x, x, x]]))
