@@ -6,9 +6,10 @@
 
 ![screenshot](https://user-images.githubusercontent.com/7298626/46901704-35376e00-cef3-11e8-81de-039408699990.png)
 
-## 説明
-NumPy公式チュートリアルのトピック毎にテストケースのクラスがあります。  
-そして、機能毎にテストメソッドがあるので、その実行結果をAssert文を書いて当てる演習問題です。
+## 概要
+NumPy公式チュートリアルの各章のトピック毎にテストケースのクラスがあります。  
+各テストケースのクラス内にはNumPyの機能毎にテスト関数があります。  
+その関数の実行結果を正しいAssert文を書いて当てるNumPyの演習問題です。
 
 ## 動作環境
 * Python 3
@@ -77,7 +78,7 @@ if __name__ == '__main__':
 * [NumPy公式チュートリアルを効率的に学習する方法](https://note.mu/fookiemonster/n/n7ce86785271f)
 
 ## ライセンス
-[MITライセンス](https://github.com/tcnksm/tool/blob/master/LICENCE)
+MITライセンス
 
 ## 参考文献
 * NumPy - [Quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
