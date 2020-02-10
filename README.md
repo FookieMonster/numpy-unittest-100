@@ -47,7 +47,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
-# ファンシーなインデックス付けとテクニック
+# ファンシーなインデックス付けとトリック
 class TestArrayIndexing(unittest.TestCase):
 
     # インデックス配列によるインデックス付け
