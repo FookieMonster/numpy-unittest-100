@@ -42,7 +42,7 @@ NumPy公式チュートリアルの各章のトピック毎にテストケース
 ## サンプル
 以下はNumPyのインデックス参照に関する演習問題です。  
 （問題１）　xの部分のコードを書いて正しいAssert文にして下さい。
-~~~
+~~~Python
 import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
