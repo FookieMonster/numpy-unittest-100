@@ -47,22 +47,27 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# ファンシーなインデックス付けとテクニック
 class TestArrayIndexing(unittest.TestCase):
 
+    # インデックス配列によるインデックス付け
     def test_fancy_indexing(self):
         vector = np.array([7, 6, 5])
         assert_array_equal(vector[[2, 0, 1]], np.array([x, x, x]))
 
+    # ブール型配列によるインデックス付け
     def test_indexing_with_boolean_arrays(self):
         metrix = np.arange(9).reshape(3, 3)
         assert_array_equal(metrix > 4, np.array([[x, x, x],
                                                  [x, x, x],
                                                  [x, x, x]]))
 
+    # ブール型配列によるインデックス付け（エレメントの選択）
     def test_indexing_with_selected_elements(self):
         metrix = np.arange(9).reshape(3, 3)
         assert_array_equal(metrix[metrix > 4], np.array([x, x, x, x]))
-
+    
+    # ブール型配列によるインデックス付け（値の代入）
     def test_indexing_with_assignments(self):
         metrix = np.arange(9).reshape(3, 3)
         metrix[metrix > 4] = 0
