@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# スライス
 class TestArraySlicing(unittest.TestCase):
 
     def test_slicing_1d(self):
