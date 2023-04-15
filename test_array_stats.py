@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# 統計関数
 class TestArrayStats(unittest.TestCase):
 
     def test_sum(self):
