@@ -15,8 +15,8 @@ NumPy公式チュートリアルの各章のトピック毎に演習問題があ
 * NumPy
 * PyCharm (推奨)
 
-## テストケース
-| テストケース | トピック |
+## 演習問題
+| ファイル名 | トピック |
 ----|---- 
 | test_array_basic.py | NumPyの基礎 |
 | test_array_broadcast.py | ブロードキャスト |
