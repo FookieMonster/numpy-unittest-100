@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# 単位行列
 class TestArrayEye(unittest.TestCase):
 
     def test_eye_NxN(self):
