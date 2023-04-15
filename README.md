@@ -7,7 +7,7 @@
 ![screenshot](https://user-images.githubusercontent.com/7298626/46901704-35376e00-cef3-11e8-81de-039408699990.png)
 
 ## 概要
-NumPyの関数の実行結果を正しいAssert文で答える演習問題です。
+NumPy関数の実行結果を正しいAssert文で答える演習問題です。
 
 ## 動作環境
 * Python 3
@@ -44,7 +44,7 @@ NumPy公式チュートリアルの各章のトピック毎に演習問題があ
 
 ## サンプル
 以下はNumPyのインデックス参照に関する演習問題です。  
-（問題１）　xの部分のコードを書いて正しいAssert文にして下さい。
+（問題１）　xの部分を書いて正しいAssert文にして下さい。
 ~~~Python
 import unittest
 import numpy as np
