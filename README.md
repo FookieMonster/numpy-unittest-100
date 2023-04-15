@@ -11,9 +11,9 @@ NumPyコードの実行結果を正しいAssert文で答える演習問題です
 
 NumPyによる配列の操作や関数の実行結果を答えることで、公式チュートリアルを正しく理解出来ているかを確認できます。（または、どこを理解出来てないか確認できます）<br>
 
-## 動作環境
+## 環境
 * Python 3
-* NumPy
+* NumPy 1.14
 * PyCharmなどのユニットテストを実行できる環境
 
 ここでは、統合開発環境として、PyCharmを利用していますが、VSCodeなどでも可。
@@ -92,7 +92,7 @@ if __name__ == '__main__':
 MITライセンス
 
 ## 参考文献
-* NumPy - [Quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
+* NumPy 1.14 - [Quickstart tutorial](https://numpy.org/doc/1.14/user/quickstart.html)
 * Python - [Unittest](https://docs.python.jp/3/library/unittest.html)
 * Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
 * 東京大学 松尾研究室 - [Numpy Test System](https://weblab.t.u-tokyo.ac.jp/)
