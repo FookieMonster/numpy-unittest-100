@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# 配列の選択
 class TestArraySelect(unittest.TestCase):
 
     def test_select_cond1(self):
