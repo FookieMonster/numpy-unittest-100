@@ -7,7 +7,7 @@
 ![screenshot](https://user-images.githubusercontent.com/7298626/46901704-35376e00-cef3-11e8-81de-039408699990.png)
 
 ## 概要
-NumPy関数の実行結果を正しいAssert文で答える演習問題です。
+NumPyコードの実行結果を正しいAssert文で答える演習問題です。
 
 ## 動作環境
 * Python 3
