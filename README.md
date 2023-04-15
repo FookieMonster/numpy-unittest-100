@@ -20,7 +20,8 @@ NumPyによる配列の操作や関数の実行結果を答えることで、公
 
 ## 演習問題
 
-NumPy公式チュートリアルの各章のトピック毎に演習問題があります。
+NumPy公式チュートリアルの各章のトピック毎に演習問題があります。<br>
+NumPyバージョン1.14の公式チュートリアルをベースに問題を作成しています。
 
 | ファイル名 | トピック |
 ----|---- 
@@ -92,7 +93,7 @@ if __name__ == '__main__':
 MITライセンス
 
 ## 参考文献
-* NumPy 1.14 - [Quickstart tutorial](https://numpy.org/doc/1.14/user/quickstart.html)
+* NumPy - [Quickstart tutorial 1.14](https://numpy.org/doc/1.14/user/quickstart.html)
 * Python - [Unittest](https://docs.python.jp/3/library/unittest.html)
 * Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
 * 東京大学 松尾研究室 - [Numpy Test System](https://weblab.t.u-tokyo.ac.jp/)
