@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# 形状の操作
 class TestArrayReshape(unittest.TestCase):
 
     def test_reshape2d(self):
