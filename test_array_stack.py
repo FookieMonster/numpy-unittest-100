@@ -2,8 +2,10 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# スタック
 class TestArrayStack(unittest.TestCase):
 
+    # vstack関数
     def test_vstack(self):
         metrixA = np.array([[1, 2], [3, 4]])
         metrixB = np.array([[5, 6], [7, 8]])
@@ -14,6 +16,7 @@ class TestArrayStack(unittest.TestCase):
                                     [x, x],
                                     [x, x]]))
 
+    # hstack関数
     def test_hstack(self):
         metrixA = np.array([[1, 2], [3, 4]])
         metrixB = np.array([[5, 6], [7, 8]])
