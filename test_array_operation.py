@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal
 
+# 基本的な操作
 class TestArrayOperation(unittest.TestCase):
 
     def test_plus(self):
