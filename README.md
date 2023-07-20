@@ -92,7 +92,7 @@ if __name__ == '__main__':
 ## ライセンス
 MITライセンス
 
-## 参考文献
+## 参考資料
 * NumPy - [Quickstart tutorial 1.14](https://numpy.org/doc/1.14/user/quickstart.html)
 * Python - [Unittest](https://docs.python.jp/3/library/unittest.html)
 * Rougier - [100 numpy exercises](https://github.com/rougier/numpy-100)
